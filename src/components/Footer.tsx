@@ -35,9 +35,12 @@ export default function ({ commitHash, commitMessage }: footerProp) {
                             </a>
                         </div>
                         <div className="mx-auto">
-                            <span className="mx-auto mt-2 text-sm font-medium text-gray-500">
-                                Running version{hash} - {message}
-                            </span>
+                            <a
+                                href={`https://github.com/Kars1996/CommitTestWebNext/commit/${commitHash}`}
+                                className="mx-auto mt-2 text-sm font-medium text-gray-500"
+                            >
+                                Running version {hash} - {message}
+                            </a>
                         </div>
                     </div>
                 </div>

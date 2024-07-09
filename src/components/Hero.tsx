@@ -11,7 +11,7 @@ export default function () {
             <section>
                 <div className="px-8 py-24 mx-auto md:px-12 lg:px-32 max-w-7xl">
                     <div className="text-center">
-                        <h1 className="text-4xl font-semibold tracking-tighter text-gray-900 lg:text-5xl text-balance">
+                        <h1 className="text-4xl font-semibold tracking-tighter text-gray-200 lg:text-5xl text-balance">
                             Testing pages{" "}
                             <span className="text-gray-600">
                                 one repo at a time
@@ -22,7 +22,7 @@ export default function () {
                         </p>
                         <div className="flex flex-col items-center justify-center gap-2 mx-auto mt-8 md:flex-row">
                             <button
-                                className="inline-flex items-center justify-center w-full h-12 gap-3 px-5 py-3 font-medium text-white duration-200 bg-gray-900 md:w-auto rounded-xl hover:bg-gray-700 focus:ring-2 focus:ring-offset-2 focus:ring-black"
+                                className="inline-flex items-center justify-center w-full h-12 gap-3 px-5 py-3 font-medium text-white duration-200 bg-gray-700 md:w-auto rounded-xl hover:bg-gray-700 focus:ring-2 focus:ring-offset-2 focus:ring-black"
                                 aria-label="Primary action"
                             >
                                 Primary button
