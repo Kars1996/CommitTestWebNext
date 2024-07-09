@@ -13,6 +13,7 @@ Contact Kars for any enquieries
 import Console from "@/modules/Console/Console";
 import { newMeta } from "@/modules/meta";
 import AOS from "@/lib/Aos/aos";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -66,6 +67,14 @@ export default function RootLayout({
                 <main className="_kars">
                     <AOS />
                     {children}
+                    <Footer
+                        commitHash={
+                            process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_SHA
+                        }
+                        commitMessage={
+                            process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_MESSAGE
+                        }
+                    />
                 </main>
                 <Console />
             </Body>
